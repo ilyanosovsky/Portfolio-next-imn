@@ -13,10 +13,10 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! I'm a dynamic Full-Stack Web Developer with a distinctive background in civil engineering and a flair for UI/UX design. My journey in tech began with a comprehensive coding bootcamp, equipping me with a robust skill set in both frontend and backend development. My unique perspective is shaped by my analytical experience in the construction industry, where I honed my problem-solving skills.
+            Hello! I&apos;m a dynamic Full-Stack Web Developer with a distinctive background in civil engineering and a flair for UI/UX design. My journey in tech began with a comprehensive coding bootcamp, equipping me with a robust skill set in both frontend and backend development. My unique perspective is shaped by my analytical experience in the construction industry, where I honed my problem-solving skills.
           </p>
           <p>
-            Fast-forward to today, I've leveraged my diverse expertise at a leading construction company{" "}
+            Fast-forward to today, I&apos;ve leveraged my diverse expertise at a leading construction company{" "}
             <span className="text-textGreen">
             as a Data Analyst{" "}
             </span>
@@ -25,7 +25,7 @@ const About = () => {
             as a Full-Stack web developer! {" "}
             </span>
           </p>
-          <p>I'm passionate about bringing together technical excellence and creative design to create impactful web solutions.</p>
+          <p>I&apos;m passionate about bringing together technical excellence and creative design to create impactful web solutions.</p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-6">
             <li className="flex items-center gap-2">

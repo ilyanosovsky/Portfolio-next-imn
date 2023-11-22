@@ -27,7 +27,7 @@ const Inj2M = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Moved the company's employees to cloud services to improve communication with all customers.
+          Moved the company&apos;s employees to cloud services to improve communication with all customers.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
