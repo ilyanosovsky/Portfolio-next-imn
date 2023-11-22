@@ -23,16 +23,16 @@ const Archive = () => {
           link="https://github.com/ilyanosovsky/flask-react-app"
         />
         <ArchiveCard
-          title="Space Game"
-          des="It is an analog of famous 'Space Invenders' 👾 where you can kill inos (space enemies) store your score and just have fun playing it."
-          listItem={["Python", "PyGame", "PostgreSQL"]}
-          link="https://github.com/ilyanosovsky/Hackathon_1"
+          title="Portfolio WebSite"
+          des="It is an my personal portfolio WebSite. I was inspired to create this project by portfolio of Brittany Chiang."
+          listItem={["NextJS", "TypeScript", "Vercel"]}
+          link="https://github.com/ilyanosovsky/Portfolio-next-imn"
         />
         <ArchiveCard
           title="Mini projects"
           des="Mini projects I created while studying at Developers Institute. I developed games in Python, a calculator in Java Script and various other entertaining and useful applications that can be used in everyday life."
           listItem={["Python", "JavaScript", "ReactJS"]}
-          link="https://reactbd.com/"
+          link="https://github.com/ilyanosovsky/My_projects"
         />
         {/* <ArchiveCard
           title="Amazon Clone with login, cart-option and payment intrigation."
