@@ -7,37 +7,31 @@ const About = () => {
   return (
     <section
       id="about"
-      className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8"
+      className="max-w-containerSmall mx-auto my-12 py-10 lgl:py-32 flex flex-col gap-8"
     >
       <SectionTitle title="About Me" titleNo="01" />
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Noor Mohammad and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+            Hi there! I'm a versatile MERN stack developer with a civil engineering background,
+             UI/UX design skills, and analytical experience in construction. Recently graduated 
+             from a coding bootcamp, I offer a unique blend of technical prowess and creative 
+             problem-solving. Eager to contribute my skills in backend, frontend, and design 
+             to a forward-thinking company.
           </p>
           <p>
-            Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
+            Fast-forward to today, and I had the privilege of working in
+            a huge building construction company{" "}
             <span className="text-textGreen">
-              a huge corporation, and a student-led design studio.
+            as a Data Analyst{" "}
             </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
+            and in a very promising start-up {" "}
             <span className="text-textGreen">
-              ab natus possimus? Sint, accusamus!
+            as a Full-Stack web developer!
             </span>
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
-          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
+          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
@@ -85,6 +79,30 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
               Tailwindcss
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              OpenAI
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              MaterialUI
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Python
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Flask
             </li>
           </ul>
         </div>
