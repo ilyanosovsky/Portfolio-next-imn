@@ -1,54 +1,41 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
-import Amazon from "./works/Amazon";
-import Apple from "./works/Apple";
-import Google from "./works/Google";
-import ReactBD from "./works/ReactBD";
-import Splash from "./works/Splash";
+import Inj2M from "./works/Inj2M";
+import PIKModul from "./works/PIKModul";
+import ConsultantAI from "./works/ConsultantAI";
+import Freelance from "./works/Freelance";
 
 const Experience = () => {
-  const [workReactbd, setWorkReactbd] = useState(true);
-  const [workGoogle, setWorkGoogle] = useState(false);
-  const [workApple, setWorkApple] = useState(false);
-  const [workSplash, setWorkSplash] = useState(false);
-  const [workAmazon, setWorkAmazon] = useState(false);
+  const [workConsultantAI, setWorkConsultantAI] = useState(true);
+  const [workPIKModul, setWorkPIKModul] = useState(false);
+  const [workInj2M, setWorkInj2M] = useState(false);
+  const [workFreelance, setWorkFreelance] = useState(false);
 
-  const handleReactbd = () => {
-    setWorkReactbd(true);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(false);
+  const handleConsultantAI = () => {
+    setWorkConsultantAI(true);
+    setWorkPIKModul(false);
+    setWorkInj2M(false);
+    setWorkFreelance(false);
   };
 
-  const handleGoogle = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(true);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(false);
+  const handlePIKModul = () => {
+    setWorkConsultantAI(false);
+    setWorkPIKModul(true);
+    setWorkInj2M(false);
+    setWorkFreelance(false);
   };
 
-  const handleApple = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(true);
-    setWorkSplash(false);
-    setWorkAmazon(false);
+  const handleInj2M = () => {
+    setWorkConsultantAI(false);
+    setWorkPIKModul(false);
+    setWorkInj2M(true);
+    setWorkFreelance(false);
   };
-  const handleSplash = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(true);
-    setWorkAmazon(false);
-  };
-  const handleAmazon = () => {
-    setWorkReactbd(false);
-    setWorkGoogle(false);
-    setWorkApple(false);
-    setWorkSplash(false);
-    setWorkAmazon(true);
+  const handleFreelance = () => {
+    setWorkConsultantAI(false);
+    setWorkPIKModul(false);
+    setWorkInj2M(false);
+    setWorkFreelance(true);
   };
   return (
     <section
@@ -57,63 +44,52 @@ const Experience = () => {
     >
       <SectionTitle title="Where I have Worked" titleNo="02" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
-        <ul className="md:w-32 flex flex-col">
+        <ul className="md:w-50 flex flex-col">
           <li
-            onClick={handleReactbd}
+            onClick={handleConsultantAI}
             className={`${
-              workReactbd
+              workConsultantAI
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            RactBD
+            ConsultantAI
           </li>
           <li
-            onClick={handleGoogle}
+            onClick={handleFreelance}
             className={`${
-              workGoogle
+              workFreelance
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Google
+            Freelance
           </li>
           <li
-            onClick={handleApple}
+            onClick={handlePIKModul}
             className={`${
-              workApple
+              workPIKModul
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Apple
+            PIK-Modul
           </li>
           <li
-            onClick={handleSplash}
+            onClick={handleInj2M}
             className={`${
-              workSplash
+              workInj2M
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Splash
-          </li>
-          <li
-            onClick={handleAmazon}
-            className={`${
-              workAmazon
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Amazon
+            INJ-2M
           </li>
         </ul>
-        {workReactbd && <ReactBD />}
-        {workGoogle && <Google />}
-        {workApple && <Apple />}
-        {workSplash && <Splash />}
-        {workAmazon && <Amazon />}
+        {workConsultantAI && <ConsultantAI />}
+        {workPIKModul && <PIKModul />}
+        {workInj2M && <Inj2M />}
+        {workFreelance && <Freelance />}
       </div>
     </section>
   );

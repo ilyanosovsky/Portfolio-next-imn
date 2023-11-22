@@ -1,7 +1,7 @@
-import { TiArrowForward } from "react-icons/ti";
 import { motion } from "framer-motion";
+import { TiArrowForward } from "react-icons/ti";
 
-const Apple = () => {
+const ConsultantAI = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -10,40 +10,34 @@ const Apple = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        MERN Stack Developer
-        <span className="text-textGreen tracking-wide">@Apple</span>
+        Full Stack Developer
+        <span className="text-textGreen tracking-wide">@ConsultantAI</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2021 - Dec 2021
+        Sep 2023 - present
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          distinctio doloribus quas ex ea sed.
+          Seamlessly integrated the Consultant.ai platform with JIRA software, streamlining project management and enhancing cross-functional collaboration, ultimately boosting productivity and project tracking capabilities for customers.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
-          sit adipisci ad exercitationem a amet cum porro recusandae eveniet,
-          accusantium animi tenetur rerum, culpa quibusdam! Consectetur
-          laboriosam hic harum modi.
+          Enhanced user experience by resolving style and grid issues for both mobile and desktop versions of the platform at Consultant.ai, resulting in improved visual consistency and responsiveness.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam et
-          corporis necessitatibus? Pariatur voluptas ad, at et hic deserunt
-          sequi?
+          Optimized the efficiency and aesthetics of the profile page, driving a cleaner and more user-friendly interface, leading to increased user satisfaction and engagement.
         </li>
       </ul>
     </motion.div>
   );
 };
 
-export default Apple;
+export default ConsultantAI;

@@ -13,30 +13,26 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hi there! I'm a versatile MERN stack developer with a civil engineering background,
-             UI/UX design skills, and analytical experience in construction. Recently graduated 
-             from a coding bootcamp, I offer a unique blend of technical prowess and creative 
-             problem-solving. Eager to contribute my skills in backend, frontend, and design 
-             to a forward-thinking company.
+            Hello! I'm a dynamic Full-Stack Web Developer with a distinctive background in civil engineering and a flair for UI/UX design. My journey in tech began with a comprehensive coding bootcamp, equipping me with a robust skill set in both frontend and backend development. My unique perspective is shaped by my analytical experience in the construction industry, where I honed my problem-solving skills.
           </p>
           <p>
-            Fast-forward to today, and I had the privilege of working in
-            a huge building construction company{" "}
+            Fast-forward to today, I've leveraged my diverse expertise at a leading construction company{" "}
             <span className="text-textGreen">
             as a Data Analyst{" "}
             </span>
-            and in a very promising start-up {" "}
+            and contributed to the growth of an innovative startup {" "}
             <span className="text-textGreen">
-            as a Full-Stack web developer!
+            as a Full-Stack web developer! {" "}
             </span>
           </p>
+          <p>I'm passionate about bringing together technical excellence and creative design to create impactful web solutions.</p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript (ES6+)
+              JavaScript
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">

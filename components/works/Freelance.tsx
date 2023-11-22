@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
 import { TiArrowForward } from "react-icons/ti";
+import { motion } from "framer-motion";
 
-const ReactBD = () => {
+const Freelance = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -10,38 +10,34 @@ const ReactBD = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Engineer
-        <span className="text-textGreen tracking-wide">@ReactBD</span>
+        Full Stack Developer
+        <span className="text-textGreen tracking-wide">@Freelance</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2023 - present
+        Aug 2023 - present
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Write modern, performant, maintainable code for a diverse array of
-          client and internal projects
+          Led the development of a comprehensive MERN stack-based educational platform, transforming a Figma design into a fully functional website, optimized for responsive interaction across various devices.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Work with a variety of different languages, platforms, frameworks, and
-          content management systems such as JavaScript, TypeScript, Gatsby,
-          React, Craft, WordPress, Prismic, and Netlify
+          Implemented dynamic features for language learning, including an audio-based learning system, self-assessment quizzes, and engaging reading and writing exercises, catering specifically to Russian speakers learning Hebrew.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Communicate with multi-disciplinary teams of engineers, designers,
-          producers, and clients on a daily basis
+          Played a key role in both frontend and backend development, ensuring a seamless user experience and efficient data management, culminating in the successful deployment of a robust and interactive language learning platform.
         </li>
       </ul>
     </motion.div>
   );
 };
 
-export default ReactBD;
+export default Freelance;
