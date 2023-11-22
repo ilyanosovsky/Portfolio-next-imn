@@ -1,5 +1,4 @@
 import { TbBrandGithub } from "react-icons/tb";
-import { SlSocialYoutube } from "react-icons/sl";
 import {
   SlSocialLinkedin,
   SlSocialFacebook,

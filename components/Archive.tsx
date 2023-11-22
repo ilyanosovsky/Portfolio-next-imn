@@ -17,27 +17,24 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Educare Engligh Learning Academy"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.educareenglishlearningacademy.com/"
+          title="Full Stack Developer Assignment"
+          des="A full-stack web application built with Flask and React for managing organizations and users. This project includes user registration, organization management, and user assignments to organizations."
+          listItem={["ReactJS", "Flask", "MUI"]}
+          link="https://github.com/ilyanosovsky/flask-react-app"
         />
         <ArchiveCard
-          title="Cyber Security Blog with live comments section"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
+          title="Space Game"
+          des="It is an analog of famous 'Space Invenders' 👾 where you can kill inos (space enemies) store your score and just have fun playing it."
+          listItem={["Python", "PyGame", "PostgreSQL"]}
+          link="https://github.com/ilyanosovsky/Hackathon_1"
         />
         <ArchiveCard
-          title="ReactBD web development company"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
+          title="Mini projects"
+          des="Mini projects I created while studying at Developers Institute. I developed games in Python, a calculator in Java Script and various other entertaining and useful applications that can be used in everyday life."
+          listItem={["Python", "JavaScript", "ReactJS"]}
           link="https://reactbd.com/"
         />
-        <ArchiveCard
+        {/* <ArchiveCard
           title="Amazon Clone with login, cart-option and payment intrigation."
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
@@ -57,9 +54,9 @@ const Archive = () => {
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
           link="https://portfolioone.reactbd.com/"
-        />
+        /> */}
 
-        {showMore && (
+        {/* {showMore && (
           <>
             <motion.div
               initial={{ opacity: 0 }}
@@ -196,8 +193,8 @@ const Archive = () => {
           >
             Show More
           </button>
-        )}
-      </div>
+        )} */}
+      </div> 
     </div>
   );
 };
