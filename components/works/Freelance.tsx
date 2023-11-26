@@ -21,19 +21,27 @@ const Freelance = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Led the development of a comprehensive MERN stack-based educational platform, transforming a Figma design into a fully functional website, optimized for responsive interaction across various devices.
+          Led the development of a comprehensive MERN stack-based educational
+          platform, transforming a Figma design into a fully functional website,
+          optimized for responsive interaction across various devices.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Implemented dynamic features for language learning, including an audio-based learning system, self-assessment quizzes, and engaging reading and writing exercises, catering specifically to Russian speakers learning Hebrew.
+          Implemented dynamic features for language learning, including an
+          audio-based learning system, self-assessment quizzes, and engaging
+          reading and writing exercises, catering specifically to Russian
+          speakers learning Hebrew.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Played a key role in both frontend and backend development, ensuring a seamless user experience and efficient data management, culminating in the successful deployment of a robust and interactive language learning platform.
+          Played a key role in both frontend and backend development, ensuring a
+          seamless user experience and efficient data management, culminating in
+          the successful deployment of a robust and interactive language
+          learning platform.
         </li>
       </ul>
     </motion.div>

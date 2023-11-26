@@ -7,7 +7,10 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 
 const Projects = () => {
   return (
-    <section id="project" className="max-w-container mx-auto my-12 lgl:px-20 py-24">
+    <section
+      id="project"
+      className="max-w-container mx-auto my-12 lgl:px-20 py-24"
+    >
       <SectionTitle title="Some Things I have Built" titleNo="03" />
       {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
@@ -34,7 +37,11 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Court App</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              The Court web app allows players to find a tennis sparring partner on a court near you. A kind of <span className="text-textGreen">social network</span> for tennis players. Includes a map with courts, the ability to add to friends, create posts with the offer to play.{" "}
+              The Court web app allows players to find a tennis sparring partner
+              on a court near you. A kind of{" "}
+              <span className="text-textGreen">social network</span> for tennis
+              players. Includes a map with courts, the ability to add to
+              friends, create posts with the offer to play.{" "}
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>ReactJS</li>
@@ -87,7 +94,10 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Social Media App</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-              A web-based social media network inspired by Threads. This project offers a rich set of features allowing users to engage in a vibrant <span className="text-textGreen">social environment.</span>
+              A web-based social media network inspired by Threads. This project
+              offers a rich set of features allowing users to engage in a
+              vibrant{" "}
+              <span className="text-textGreen">social environment.</span>
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>ReactJS</li>
@@ -140,7 +150,12 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Travel Map</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              Travel Map is a web application that allows users to track and visualize the countries they have visited. Users can create an account, log in, and mark the countries they have visited on an <span className="text-textGreen">interactive map</span>. The application provides a user-friendly interface to manage and showcase their travel experiences.
+              Travel Map is a web application that allows users to track and
+              visualize the countries they have visited. Users can create an
+              account, log in, and mark the countries they have visited on an{" "}
+              <span className="text-textGreen">interactive map</span>. The
+              application provides a user-friendly interface to manage and
+              showcase their travel experiences.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Python</li>

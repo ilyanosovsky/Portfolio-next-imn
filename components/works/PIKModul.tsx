@@ -20,19 +20,22 @@ const PIKModul = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Developed models of personnel movement at the construction site to optimize project completion time.
+          Developed models of personnel movement at the construction site to
+          optimize project completion time.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Designed an analytical system for accounting of construction deliveries for accuracy in meeting deadlines.
+          Designed an analytical system for accounting of construction
+          deliveries for accuracy in meeting deadlines.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Optimized work with construction documents to reduce production time by 30%.
+          Optimized work with construction documents to reduce production time
+          by 30%.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">

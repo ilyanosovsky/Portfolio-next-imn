@@ -194,7 +194,7 @@ const Archive = () => {
             Show More
           </button>
         )} */}
-      </div> 
+      </div>
     </div>
   );
 };

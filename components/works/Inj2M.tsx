@@ -21,13 +21,15 @@ const Inj2M = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Designed a system for storing construction documents to optimize the delivery of the facility by 15%.
+          Designed a system for storing construction documents to optimize the
+          delivery of the facility by 15%.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Moved the company&apos;s employees to cloud services to improve communication with all customers.
+          Moved the company&apos;s employees to cloud services to improve
+          communication with all customers.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
@@ -39,7 +41,8 @@ const Inj2M = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Developed a structured data storage system for all company facilities to save time searching for data.
+          Developed a structured data storage system for all company facilities
+          to save time searching for data.
         </li>
       </ul>
     </motion.div>

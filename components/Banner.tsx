@@ -30,7 +30,10 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a Full-Stack Web Developer with a focus on frontend excellence. I specialize in creating responsive, user-centric web applications using the MERN stack, complemented by a solid understanding of backend development.{" "}
+        I am a Full-Stack Web Developer with a focus on frontend excellence. I
+        specialize in creating responsive, user-centric web applications using
+        the MERN stack, complemented by a solid understanding of backend
+        development.{" "}
         <a href="https://www.linkedin.com/in/ilyanosovsky/" target="_blank">
           {" "}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">

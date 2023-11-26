@@ -21,19 +21,26 @@ const ConsultantAI = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Seamlessly integrated the Consultant.ai platform with JIRA software, streamlining project management and enhancing cross-functional collaboration, ultimately boosting productivity and project tracking capabilities for customers.
+          Seamlessly integrated the Consultant.ai platform with JIRA software,
+          streamlining project management and enhancing cross-functional
+          collaboration, ultimately boosting productivity and project tracking
+          capabilities for customers.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Enhanced user experience by resolving style and grid issues for both mobile and desktop versions of the platform at Consultant.ai, resulting in improved visual consistency and responsiveness.
+          Enhanced user experience by resolving style and grid issues for both
+          mobile and desktop versions of the platform at Consultant.ai,
+          resulting in improved visual consistency and responsiveness.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Optimized the efficiency and aesthetics of the profile page, driving a cleaner and more user-friendly interface, leading to increased user satisfaction and engagement.
+          Optimized the efficiency and aesthetics of the profile page, driving a
+          cleaner and more user-friendly interface, leading to increased user
+          satisfaction and engagement.
         </li>
       </ul>
     </motion.div>
