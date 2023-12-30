@@ -33,7 +33,7 @@ const Archive = () => {
           des="Travel Map is a web application that allows users to track and
           visualize the countries they have visited. Users can create an
           account, log in, and mark the countries they have visited on an interactive map."
-          listItem={["Python", "JavaScript", "PostgreSQL"]}
+          listItem={["Python", "DjangoREST", "JS", "PostgreSQL"]}
           link="https://github.com/ilyanosovsky/HACKATHON_2"
         />
         <ArchiveCard
