@@ -104,6 +104,7 @@ const Projects = () => {
               <li>MongoDB</li>
               <li>NodeJS</li>
               <li>JWT</li>
+              <li>Vite</li>
               <li>Cloudinary</li>
               <li>Vercel Deployment</li>
             </ul>
