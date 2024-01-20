@@ -21,10 +21,9 @@ const ConsultantAI = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Seamlessly integrated the Consultant.ai platform with JIRA software,
-          streamlining project management and enhancing cross-functional
-          collaboration, ultimately boosting productivity and project tracking
-          capabilities for customers.
+          Integrated JIRA software seamlessly into the platform, empowering
+          users to efficiently manage project workflows and track issues,
+          thereby enhancing overall project coordination and collaboration.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">

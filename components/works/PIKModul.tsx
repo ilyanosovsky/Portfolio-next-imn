@@ -20,28 +20,33 @@ const PIKModul = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Developed models of personnel movement at the construction site to
-          optimize project completion time.
+          Implemented end-to-end features using React for the front end and
+          Flask/NodeJS for the backend, contributing to the development of
+          comprehensive solutions at a leading building construction company.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Designed an analytical system for accounting of construction
-          deliveries for accuracy in meeting deadlines.
+          Collaborated closely with cross-functional teams to design and
+          implement scalable backend services, enhancing the overall
+          functionality and performance of the company's web applications.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Optimized work with construction documents to reduce production time
-          by 30%.
+          Employed Python and JavaScript to develop server-side logic, ensuring
+          seamless communication between the front and back end for a cohesive
+          user experience.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Created flexible templates to speed up the design process by 25%.
+          Actively participated in the full software development lifecycle, from
+          conceptualization to deployment, while continually expanding skills in
+          both frontend and backend technologies.
         </li>
       </ul>
     </motion.div>
