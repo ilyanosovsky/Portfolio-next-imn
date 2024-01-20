@@ -30,7 +30,7 @@ const PIKModul = () => {
           </span>
           Collaborated closely with cross-functional teams to design and
           implement scalable backend services, enhancing the overall
-          functionality and performance of the company's web applications.
+          functionality and performance of the company&apos;s web applications.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
