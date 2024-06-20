@@ -148,11 +148,11 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Snapgram</h3>
+              <h3 className="text-2xl font-bold">Order Eats</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
               Snapgram is a modern{" "}
-              <span className="text-textGreen">social app</span> with a stunning
+              <span className="text-textGreen">food-ordering platform</span> with a stunning
               UI with a native mobile feel, a special tech stack, an infinite
               scroll feature, and amazing performance using React JS, Appwrite,
               TypeScript, and more.
