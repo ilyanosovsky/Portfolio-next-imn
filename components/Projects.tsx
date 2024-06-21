@@ -1,6 +1,5 @@
 import {
   courtImg,
-  snapgramlImg,
   threadsImg,
   orderEatsImg,
 } from "@/public/assets";

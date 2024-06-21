@@ -7,6 +7,7 @@ export const technologies = [
     "Node.js",
     "Express.js",
     "MongoDB",
+    "PostgreSQL",
     "TailwindCSS",
     "ShadcnUI",
     "MaterialUI",
@@ -14,6 +15,8 @@ export const technologies = [
     "Flask",
     "Stripe",
     "Auth0",
+    "Jest",
+    "StoryBook",
     "Docker"
   ];
   

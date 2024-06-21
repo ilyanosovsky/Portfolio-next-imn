@@ -2,7 +2,7 @@ import { profileImg } from "@/public/assets";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
-import { technologies } from "../config/technologies.ts";
+import { technologies } from "../config/technologies";
 
 const About = () => {
   return (
