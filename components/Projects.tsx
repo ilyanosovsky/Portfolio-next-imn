@@ -46,7 +46,7 @@ const Projects = () => {
               We leverage modern technologies and frameworks to deliver a robust
               and scalable solution.{" "}
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex flex-wrap gap-2 md:gap-5 justify-between text-textDark">
               <li>ReactJS</li>
               <li>MongoDB</li>
               <li>TailwindCSS</li>
@@ -105,7 +105,7 @@ const Projects = () => {
               vibrant{" "}
               <span className="text-textGreen">social environment.</span>
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex flex-wrap gap-2 md:gap-5 justify-between text-textDark">
               <li>ReactJS</li>
               <li>MongoDB</li>
               <li>NodeJS</li>
@@ -164,7 +164,7 @@ const Projects = () => {
               players. Includes a map with courts, the ability to add to
               friends, create posts with the offer to play.{" "}
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex flex-wrap gap-2 md:gap-5 justify-between text-textDark">
               <li>ReactJS</li>
               <li>Redux</li>
               <li>MongoDB</li>
