@@ -15,9 +15,9 @@ const Projects = () => {
       id="project"
       className="max-w-container mx-auto my-12 lgl:px-20 py-24"
     >
-      <SectionTitle title="Some Things I have Built" titleNo="03" className="mb-4"/>
+      <SectionTitle title="Some Things I have Built" titleNo="03"/>
       {/* ============ project One Start here ============== */}
-      <div className="flex flex-col xl:flex-row gap-6">
+      <div className="flex flex-col xl:flex-row gap-6 mt-4">
         <a
           className="w-full xl:w-1/2 h-auto relative group"
           href="https://order-eats-app.onrender.com/"
