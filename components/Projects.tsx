@@ -15,7 +15,7 @@ const Projects = () => {
 
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         {/* ============ project One Start here ================ */}
-        <div className="flex flex-col xl:flex-row gap-6">
+        <div className="flex flex-col xl:flex-row gap-6 w-full">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
             href="https://order-eats-app.onrender.com/"
@@ -77,7 +77,7 @@ const Projects = () => {
         </div>
         {/* ============ project One End here ================== */}
         {/* ============ project Two Start here ================ */}
-        <div className="flex flex-col xl:flex-row-reverse gap-6">
+        <div className="flex flex-col xl:flex-row-reverse gap-6 w-full">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
             href="https://threads-clone-five-lac.vercel.app/"
@@ -112,7 +112,7 @@ const Projects = () => {
               <li>JWT</li>
               <li>Vite</li>
               <li>Cloudinary</li>
-              <li>Vercel Deployment</li>
+              <li>Vercel</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
@@ -135,7 +135,7 @@ const Projects = () => {
         {/* ============ project Two End here ================== */}
 
         {/* ============ project Three Start here ================ */}
-        <div className="flex flex-col xl:flex-row gap-6">
+        <div className="flex flex-col xl:flex-row gap-6 w-full">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
             href="https://court-app.onrender.com/"
