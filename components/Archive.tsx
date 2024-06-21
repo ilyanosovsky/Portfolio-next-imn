@@ -17,6 +17,12 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
+          title="Snapgram - social media app"
+          des="Snapgram is a modern Social media app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance using React JS, Appwrite, TypeScript, and more."
+          listItem={["ReactJS", "Tailwind CSS", "Appwrite", "TypeScript"]}
+          link="https://snapgram-for-me.vercel.app/"
+        />
+        <ArchiveCard
           title="Full Stack Developer Assignment"
           des="A full-stack web application built with Flask and React for managing organizations and users. This project includes user registration, organization management, and user assignments to organizations."
           listItem={["ReactJS", "Flask", "MUI"]}
@@ -43,13 +49,6 @@ const Archive = () => {
           link="https://github.com/ilyanosovsky/My_projects"
         />
         {/* <ArchiveCard
-          title="JSON data (example data api for test projects)"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Nextjs", "Tailwind CSS", "next-router"]}
-          link="https://jsondata.reactbd.com/"
-        />
-        <ArchiveCard
           title="Dynamic Responsive Portfolio"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."

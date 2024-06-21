@@ -2,6 +2,7 @@ import { profileImg } from "@/public/assets";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
+import { technologies } from "../config/technologies.ts";
 
 const About = () => {
   return (
@@ -39,78 +40,14 @@ const About = () => {
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-6">
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              JavaScript
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Next.js
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              React
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Node.js
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              TypeScript
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Express.js
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              MongoDB
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Tailwindcss
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              OpenAI
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              MaterialUI
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Python
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Flask
-            </li>
+            {technologies.map((tech, index) => (
+              <li key={index} className="flex items-center gap-2">
+                <span className="text-textGreen">
+                  <AiFillThunderbolt />
+                </span>
+                {tech}
+              </li>
+            ))}
           </ul>
         </div>
         <div className="w-full lgl:w-1/3 h-80 relative group">
