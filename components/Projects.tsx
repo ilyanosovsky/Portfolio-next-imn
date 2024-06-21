@@ -15,7 +15,7 @@ const Projects = () => {
       id="project"
       className="max-w-container mx-auto my-12 lgl:px-20 py-24"
     >
-      <SectionTitle title="Some Things I have Built" titleNo="03" />
+      <SectionTitle title="Some Things I have Built" titleNo="03" className="mb-4"/>
       {/* ============ project One Start here ============== */}
       <div className="flex flex-col xl:flex-row gap-6">
         <a

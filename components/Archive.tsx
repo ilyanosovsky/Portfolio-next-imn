@@ -19,7 +19,7 @@ const Archive = () => {
         <ArchiveCard
           title="Snapgram - social media app"
           des="Snapgram is a modern Social media app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance using React JS, Appwrite, TypeScript, and more."
-          listItem={["ReactJS", "Tailwind CSS", "Appwrite", "TypeScript"]}
+          listItem={["React", "TailwindCSS", "Appwrite", "TS"]}
           link="https://snapgram-for-me.vercel.app/"
         />
         <ArchiveCard
