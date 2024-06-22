@@ -17,6 +17,7 @@ export const technologies = [
     "Auth0",
     "Jest",
     "StoryBook",
-    "Docker"
+    "Docker",
+    "Redux"
   ];
   
